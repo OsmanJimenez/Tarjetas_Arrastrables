@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela', sans-serif;
+    background-color: #f5f4f3;
+}
+
+h1{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* CAJA */
+
+.caja,
+.container{
+    display: grid;
+}
+
+.caja{
+    height: 70vh;
+    margin-top: 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    row-gap: 16px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 13px 13px 26px #cecece, -13px -13px 26px #f2f2f2;
+}
+
+.titulo{
+    text-align: center;
+    color: #484848;
+}
+
+/* TARJETA */
+
+.card,
+.elemento{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 360px;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 16px #e1e1e1, -2px -2px 16px #fff;
+}
+
+.img{
+    width: 75px;
+    height: 75px;
+    margin-right: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nombre{
+    font-size: 18px;
+    color: #272a2a;
+    font-weight: 500;
+}
+
+.profesion{
+    font-size: 12px;
+    color: #8a8eaa;
+}
+
+/* REDES SOCIALES */
+
+.redes{
+    padding-right: 10px;
+}
+
+.bi-linkedin{
+    color: #0077b5;
+}
+
+.bi-twitter{
+    color: #1da1f2;
+}
+
+.bi-youtube{
+    color: #ff0000;
+}
+
+/* DESACTIVAR EFECTO AL ARRASTRAR CAJA */
+
+.mover{
+    opacity: 0;
+}
